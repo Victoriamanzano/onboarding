@@ -15,21 +15,21 @@
             {{step.description}}
           </p>
 
-          <div class="card-buttons d-flex gap-5 ">
+          <div class="card-buttons d-flex mb-3">
 
             <!-- Article sidebar-->
-            <div class="side-dots px-3">
+            <div class="side-dots px-3 d-flex justify-content-start p-3">
               @for(step of steps; track $index){
               @if($index === currentStep){
-              <button class="sidebar-article btn border-0 m-0 p-0 " [class.active]="$index === currentStep"></button>
+              <button class="sidebar-article btn " [class.active]="$index === currentStep"></button>
               }@else{
-              <button (click)="nextArticle()" class="dots btn btn-step border-0 p-0"></button>
+              <button (click)="nextArticle()" class="dots btn btn-step "></button>
               }
               }
             </div>
 
             <!-- buttons article -->
-            <div class="btns-article d-flex  gap-1 ">
+            <div class="btns-article d-flex justify-content-end ms-auto ">
               @if(currentStep !== 0){
               <button (click)="previous()" class="btn btn-step1  btn-white border-secondary"><img id="arrows"
                   src="assets/svg/flecha-lbb.png" alt="arrow"></button>
@@ -38,6 +38,7 @@
               <button (click)="nextArticle()" class="btn btn-step2  btn-dark border-secondary"><img id="arrows"
                   src="assets/svg/flecha-rw.png" alt="arrow"></button>
               }
+
             </div>
           </div>
         </div>

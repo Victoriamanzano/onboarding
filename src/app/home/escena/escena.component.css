@@ -1,12 +1,11 @@
-
 /*article*/
 
 .article-info {
-  margin-bottom: 38px;
+  margin-bottom: 30px;
   background-color: #ebebeb;
 }
-.article-card {
 
+.article-card {
   margin-top: 15px;
   border-radius: 15px;
 }
@@ -14,60 +13,38 @@
 .article-body {
   border-radius: 0 0 15px 15px;
   max-height: 10%;
-
-}
-
-.article-text {
-  margin-top: 20px;
-
 }
 
 /*img*/
 img {
   margin-top: 30%;
   margin-bottom: 20%;
-
 }
 
 /*text p*/
 p {
-  color:gray;
+  color: gray;
 }
 
 /*buttons*/
 .btns-article {
-  margin-left: 50px;
-  justify-content: space-between;
-
+  margin-right: 20px;
 }
 
 .btn-step1 {
-  margin-top: 23px;
   border-radius: 50%;
-  /* margin-right: 5px;
-  margin-left: 50px; */
+
 }
 
 
 .btn-step2 {
-  margin-top: 23px;
   border-radius: 50%;
-
 }
-
-/* .btn-step0 {
-
-  margin-left: 50px;
-  margin-top: 23px;
-  border-radius: 100%;
-
-} */
 
 #arrows {
-  align-items: center;
-  padding: 0;
   max-width: 15px;
 }
+
 /*sidebar*/
 .sidebar-article {
   border: none;
@@ -75,7 +52,6 @@ p {
   height: 4px;
   width: 12px;
   border-radius: 20px;
-  display: inline-block;
   padding: 0px;
   margin: 0 5px;
 }
@@ -83,21 +59,15 @@ p {
 .dots {
   border: none;
   background: none;
-  height: 6px;
+  height: 5px;
   background-color: rgb(211, 208, 208);
-  width: 6px;
+  width: 5px;
   border-radius: 50%;
-  display: inline-block;
   padding: 0px;
   margin: 0 5px;
 }
 
-.side-dots {
-  display: flex-start;
-  margin-top: 2rem;
-  display: inline-block;
 
-}
 
 .side-dots .active {
   background-color: rgb(2, 2, 2);
