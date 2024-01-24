@@ -29,14 +29,14 @@
             </div>
 
             <!-- buttons article -->
-            <div>
+            <div class="btns-article d-flex  gap-1 ">
               @if(currentStep !== 0){
               <button (click)="previous()" class="btn btn-step1  btn-white border-secondary"><img id="arrows"
                   src="assets/svg/flecha-lbb.png" alt="arrow"></button>
               }
-              @if(currentStep !== 2){
+               @if(currentStep !== 2){
               <button (click)="nextArticle()" class="btn btn-step2  btn-dark border-secondary"><img id="arrows"
-                  src="assets/svg/flecha-rw.png" alt="arrow" ></button>
+                  src="assets/svg/flecha-rw.png" alt="arrow"></button>
               }
             </div>
           </div>
@@ -46,5 +46,4 @@
     }
     }
   </div>
-
 </body>
